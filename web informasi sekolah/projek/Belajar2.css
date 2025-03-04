@@ -1,0 +1,137 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 20px;
+}
+
+table {
+    width: 400px;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: #f2f7f3;
+    box-shadow: 0 0 10px rgba(252, 252, 4, 0.1);
+}
+
+table th {
+    background-color: #fbfcfd;
+    color: rgb(16, 10, 10);
+    padding: 10px;
+    text-align: center;
+}
+
+table td {
+    padding: 8px;
+    text-align: center;
+}
+
+table tr:nth-child(even) {
+    background-color: #68f4bc;
+}
+
+form {
+    width: 400px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+form table {
+    width: 100%;
+}
+
+form table th {
+    background-color: #fc2c08;
+    color: rgb(19, 19, 20);
+    padding: 10px;
+    text-align: center;
+}
+
+form table td {
+    padding: 8px;
+}
+
+form table td input,
+form table td select {
+    width: calc(100% - 10px);
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+form table td input[type="submit"] {
+    background-color: body {
+        font-family: Arial, sans-serif;
+        background-color: #f0f0f0;
+        margin: 0;
+        padding: 20px;
+    }
+
+    table {
+        width: 50%;
+        margin: 20px auto;
+        border-collapse: collapse;
+        background-color: #fff;
+        box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+
+    table th {
+    background-color: #fd05b3;
+    background-color: ;
+        color: white;
+        padding: 10px;
+        text-align: center;
+    }
+
+    table td {
+        padding: 8px;
+        text-align: center;
+    }
+
+    table tr:nth-child(even) {
+        background-color: #f2f2f2;
+    }
+
+    form {
+        width: 50%;
+        margin: 20px auto;
+        background-color: #fff;
+        padding: 20px;
+        box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+
+    form table {
+        width: 100%;
+    }
+
+    form table th {
+    background-color: #06f59d;
+        color: white;
+        padding: 10px;
+        text-align: center;
+    }
+
+    form table td {
+        padding: 8px;
+    }
+
+    form table td input,
+    form table td select {
+        width: calc(100% - 10px);
+        padding: 5px;
+        box-sizing: border-box;
+    }
+
+    form table td input[type="submit"] {
+    background-color: #f5f8f9;
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        cursor: pointer;
+    }
+    
+}
+
+form table td input[type="submit"]:hover {
+    background-color: #53921f;
+}
